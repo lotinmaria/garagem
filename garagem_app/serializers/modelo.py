@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from models.modelo import Modelo
+from garagem_app.models import Modelo
 
 class ModeloSerializer(ModelSerializer):
     class Meta:
